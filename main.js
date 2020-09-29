@@ -1,7 +1,11 @@
 document.addEventListener('click', handleValues)
 document.addEventListener('click', handleCarousel)
-
-
+window.addEventListener('DOMContentLoaded', () => {
+    console.log('fasfdaf')
+})
+window.addEventListener('load', () => {
+    console.log('fasfdaf in load')
+})
 
 //handler for values section
 function handleValues(event) {
